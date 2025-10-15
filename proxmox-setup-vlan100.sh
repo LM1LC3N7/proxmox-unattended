@@ -8,7 +8,7 @@ iface enp1s0.100 inet static
 
 auto vmbr0
 iface vmbr0 inet static
-    address 10.15.100.100.21/24
+    address 10.15.100.100.100/24
     bridge-ports enp1s0.100
     bridge-stp off
     bridge-fd 0
